@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	<title > Flash Foods </title>
+</head>
+<body>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script >
+		$(function(){
+         
+         	$("#btnsubmit2").mousedown(function(){
+         	    alert("Pedidos hechos");	 
+         	});
+         	
+         });
+         
+		
+	</script>
+
+	<div id="titulo">
+		<header > 
+<hgroup>
+	                           <h1>            Flash foods         </h1>  </hgroup>
+		
+	<nav>
+	<ul>
+		<li><a href="comidarapida.html">inicio</a></li>
+		<li><a href="contacto.html">contacto</a></li>
+		<li><a href="comidarapida2.html">productos</a></li>
+        <li><a href="quienessomos.html">quienes somos</a></li>
+		
+		  
+	</ul>
+</nav>
+</header>
+<section>
+	<div id="informacion">
+		<hgroup>
+			<h1 class="contacto"> Pedidos </h1>
+			<p> </p>
+			<form>
+				<label for="Nombre">Nombre Del Producto</label>
+				<input type="text" name="Nombre" placeholder="Producto" required>
+				<label for="E-mail">E-mail</label>
+				<input type="email" name="E-mail"placeholder="Indicanos tu Correo" required>
+				<label for="Edad">Cantidad</label>
+				<input type="number" name="Edad"placeholder="Cantidad" min="0" max="100" required>
+				<label for="Fecha">Fecha Del Pedido</label>
+				<input type="date" name="Fecha">
+				<input type="submit" value="Realizar Pedidos" id="btnsubmit2">
+			</form>
+			
+		</hgroup>
+	</div>
+</section>
+</div>
+<footer class="piedepagina"> Guarapito Team 2020 Derechos Reservados :v ...</footer>
+</body>
+</html>
